@@ -123,7 +123,8 @@
     { "@type": "ListItem", "position": 7, "item": { "@type": "LocalBusiness", "name": "Tussen Neus & Lippen", "url": "https://www.tussenneusenlippen.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }},
     { "@type": "ListItem", "position": 8, "item": { "@type": "LocalBusiness", "name": "Vathorst Wonen Makelaars", "url": "https://www.vathorstmakelaars.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }},
     { "@type": "ListItem", "position": 9, "item": { "@type": "LocalBusiness", "name": "Klusbedrijf Amersfoort", "url": "https://www.klusbedrijf-amersfoort.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }},
-    { "@type": "ListItem", "position": 10, "item": { "@type": "LocalBusiness", "name": "Tuinman Vathorst", "url": "https://www.tuinman-vathorst.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }}
+    { "@type": "ListItem", "position": 10, "item": { "@type": "LocalBusiness", "name": "Schilder Vathorst", "url": "https://www.schilder-vathorst.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }},
+    { "@type": "ListItem", "position": 11, "item": { "@type": "LocalBusiness", "name": "Tuinman Vathorst", "url": "https://www.tuinman-vathorst.nl/", "address": { "@type": "PostalAddress", "streetAddress": "Darthuizerberg 1", "postalCode": "3825 BK", "addressLocality": "Amersfoort" } }}
   ]
 }
 </script>
@@ -534,7 +535,7 @@
 
   .tenants-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1px;
     background: var(--line-soft);
     border: 1px solid var(--line-soft);
@@ -906,11 +907,10 @@
     <span>Darthuizerberg <em class="serif italic" style="color:var(--terracotta); font-style:italic;">1</em></span>
   </a>
   <div class="nav-links">
-    <a href="#huurders">Huurders</a>
-    <a href="#beschikbaar">Beschikbaar</a>
+    <a href="#bedrijven">Bedrijven</a>
     <a href="#locatie">Locatie</a>
-    <a href="#contact" class="nav-cta">
-      Contact
+    <a href="#beschikbaar" class="nav-cta">
+      Bekijk te huur
       <span>→</span>
     </a>
   </div>
@@ -946,11 +946,10 @@
       </div>
 
       <div class="hero-actions">
-        <a href="#beschikbaar" class="btn btn-primary">
-          Bekijk te huur
+        <a href="#bedrijven" class="btn btn-primary">
+          Bekijk de bedrijven
           <span class="arrow">→</span>
         </a>
-        <a href="#contact" class="btn btn-ghost">Contact</a>
       </div>
     </div>
   </div>
@@ -963,11 +962,11 @@
   </div>
 </header>
 
-<!-- ── HUURDERS (LOGO WALL) ──────────────────────────── -->
-<section class="tenants" id="huurders">
+<!-- ── BEDRIJVEN (LOGO WALL) ─────────────────────────── -->
+<section class="tenants" id="bedrijven">
   <div class="container">
     <div class="section-title-block reveal">
-      <span class="section-num">— 01 / Hier gevestigd</span>
+      <span class="section-num">— 01 / Bedrijven</span>
       <h2>Een levendige<br><em>buren-mix</em></h2>
       <p>
         Een gevarieerd gezelschap van zorgprofessionals, vakmensen en
@@ -1048,6 +1047,14 @@
         </div>
         <div class="tenant-name">Klusbedrijf Amersfoort</div>
         <div class="tenant-cat">Ronald Goossensen</div>
+      </a>
+
+      <a class="tenant" href="https://www.schilder-vathorst.nl/" target="_blank" rel="noopener noreferrer" aria-label="Bezoek Schilder Vathorst">
+        <div class="tenant-logo">
+          <img src="assets/logo-schilder-vathorst.png" alt="Schilder Vathorst" loading="lazy">
+        </div>
+        <div class="tenant-name">Schilder Vathorst</div>
+        <div class="tenant-cat">Schildersbedrijf</div>
       </a>
 
       <a class="tenant" href="https://www.tuinman-vathorst.nl/" target="_blank" rel="noopener noreferrer" aria-label="Bezoek Tuinman Vathorst">
