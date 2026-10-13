@@ -15,4 +15,14 @@
       <image:geo_location>Vathorst, Amersfoort, Nederland</image:geo_location>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.darthuizerberg1.nl/te-huur-kantoorruimte-en-parkeerplaatsen-bij-station-schothorst/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.darthuizerberg1.nl/assets/zielhorsterweg-73.jpg</image:loc>
+      <image:title>Kantoorruimte huren bij station Schothorst, Zielhorsterweg 73 Amersfoort</image:title>
+    </image:image>
+  </url>
 </urlset>
