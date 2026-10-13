@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.darthuizerberg1.nl/</loc>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://www.darthuizerberg1.nl/"/>
     <image:image>
       <image:loc>https://www.darthuizerberg1.nl/assets/pand-hero.webp</image:loc>
-      <image:title>Bedrijfspand Darthuizerberg 1 Amersfoort Vathorst</image:title>
+      <image:title>Kantoorruimte huren in Vathorst: bedrijfspand Darthuizerberg 1 Amersfoort</image:title>
+      <image:caption>Bedrijfspand Darthuizerberg 1 aan rotonde 16 in Amersfoort Vathorst</image:caption>
+      <image:geo_location>Vathorst, Amersfoort, Nederland</image:geo_location>
     </image:image>
   </url>
 </urlset>
