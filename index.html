@@ -178,17 +178,23 @@
     display: flex; align-items: center; gap: 14px;
     font-family: 'Fraunces', serif;
     font-size: 22px;
-    color: var(--navy);
+    color: var(--cream);
     letter-spacing: -0.01em;
+    transition: color .3s;
   }
+  nav.scrolled .brand { color: var(--navy); }
   .brand-mark {
     font-family: 'Fraunces', serif;
     font-style: italic;
     font-size: 28px;
     font-weight: 500;
-    color: var(--terracotta);
+    color: var(--gold);
     line-height: 1;
+    transition: color .3s;
   }
+  nav.scrolled .brand-mark { color: var(--terracotta); }
+  .brand em { color: var(--gold); transition: color .3s; }
+  nav.scrolled .brand em { color: var(--terracotta); }
 
   .nav-links {
     display: flex; gap: 38px; align-items: center;
@@ -196,11 +202,13 @@
     font-weight: 500;
   }
   .nav-links a {
-    color: var(--navy);
-    transition: color .2s;
-    position: relative;
+    color: var(--cream);
+    transition: color .3s;
   }
+  nav.scrolled .nav-links a { color: var(--navy); }
+  .nav-links a { position: relative; }
   .nav-links a:hover { color: var(--terracotta); }
+  nav.scrolled .nav-links a:hover { color: var(--terracotta); }
 
   .nav-cta {
     padding: 11px 22px;
@@ -1011,7 +1019,7 @@
 
       <a class="tenant" href="https://amersfoortvathorst.buurtzorg.net/" target="_blank" rel="noopener noreferrer" aria-label="Bezoek Buurtzorg Vathorst">
         <div class="tenant-logo">
-          <img src="assets/logo-buurtzorg.jpg" alt="Logo Buurtzorg" loading="lazy">
+          <img src="assets/logo-buurtzorg-v2.jpg" alt="Logo Buurtzorg" loading="lazy">
         </div>
         <div class="tenant-name">Buurtzorg Vathorst</div>
         <div class="tenant-cat">Wijkverpleging</div>
@@ -1019,7 +1027,7 @@
 
       <a class="tenant" href="https://www.devaalfd.nl/" target="_blank" rel="noopener noreferrer" aria-label="Bezoek de Vaal Financiële Diensten">
         <div class="tenant-logo">
-          <img src="assets/logo-de-vaal.jpg" alt="Logo de Vaal Financiële Diensten" loading="lazy">
+          <img src="assets/logo-de-vaal-v2.jpg" alt="Logo de Vaal Financiële Diensten" loading="lazy">
         </div>
         <div class="tenant-name">de Vaal Financiële Diensten</div>
         <div class="tenant-cat">Hypotheekadvies</div>
