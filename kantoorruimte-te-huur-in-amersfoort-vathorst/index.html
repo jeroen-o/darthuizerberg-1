@@ -26,7 +26,10 @@
 <meta name="twitter:title" content="Gemeubileerd kantoor huren in Vathorst vanaf € 750 | Darthuizerberg 1">
 <meta name="twitter:image" content="https://www.darthuizerberg1.nl/assets/og-image.jpg">
 <meta name="theme-color" content="#0F1F35">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" href="/favicon-48.png" sizes="48x48">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230F1F35'/%3E%3Ctext x='50' y='72' font-family='Georgia,serif' font-size='72' font-style='italic' font-weight='400' text-anchor='middle' fill='%23C76B3F'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -1127,6 +1130,20 @@
   .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
   @media (max-width: 1100px) { .info-grid { grid-template-columns: 1fr; gap: 40px; } }
   .ov-list { margin-top: 18px; }
+
+  /* ── MEER AANBOD ──────────────────────────── */
+  .more-listings { background: var(--cream); border-top: 1px solid var(--line); padding: 80px 56px; }
+  .more-title { font-family: 'Fraunces', serif; font-weight: 400; font-size: 30px; color: var(--navy); margin-bottom: 28px; letter-spacing: -0.015em; }
+  .more-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+  .more-card { display: flex; flex-direction: column; gap: 6px; padding: 24px 26px; background: var(--paper); border: 1px solid var(--line-soft); border-radius: 6px; transition: all .25s; }
+  .more-card:hover { background: var(--navy); border-color: var(--navy); transform: translateY(-3px); }
+  .more-card strong { font-family: 'Fraunces', serif; font-weight: 400; font-size: 19px; color: var(--navy); }
+  .more-card span { font-size: 13.5px; color: var(--ink-muted); }
+  .more-card:hover strong { color: var(--paper); } .more-card:hover span { color: rgba(244,237,226,.75); }
+  .updated { font-size: 12.5px; opacity: .7; }
+  .crumbs { font-size: 12.5px; letter-spacing: .04em; color: rgba(244,237,226,.7); margin-bottom: 26px; }
+  .crumbs a { text-decoration: underline; text-underline-offset: 3px; } .crumbs a:hover { color: var(--terracotta); }
+  @media (max-width: 760px) { .more-listings { padding: 60px 24px; } }
 </style>
 </head>
 <body>
@@ -1150,6 +1167,7 @@
 
 <header class="hero hero-slim" id="top">
   <div class="hero-text">
+    <nav class="crumbs" aria-label="Kruimelpad"><a href="/">Kantoorruimte huren Vathorst</a> › Kantoorruimte Darthuizerberg 1</nav>
     <div class="hero-eyebrow">Darthuizerberg 1 · Vathorst · Amersfoort</div>
     <h1>Gemeubileerd kantoor huren in <em>Vathorst</em><span class="sub">Circa 225 m² aan rotonde 16, vanaf € 750 per maand inclusief</span></h1>
     <p class="hero-lead">Kantoorruimte aan de invalsweg naar IKEA, Loods 5 en de nieuwbouwwijk Vathorst. Op een hoek aan een rotonde, met voldoende parkeergelegenheid.</p>
@@ -1347,6 +1365,13 @@
 </section>
 
 
+<section class="more-listings" aria-labelledby="h-more">
+  <div class="container">
+    <h2 id="h-more" class="more-title">Ook te huur in Amersfoort</h2>
+    <div class="more-grid"><a class="more-card" href="/"><strong>Kantoorruimte huren in Vathorst</strong><span>alle aanbod en voordelen</span></a><a class="more-card" href="/parkeerplaats-te-huur-amersfoort-vathorst-zielhorst/"><strong>Overdekte parkeerplaats Zielhorst</strong><span>vanaf € 125 per maand</span></a><a class="more-card" href="/te-huur-kantoorruimte-en-parkeerplaatsen-bij-station-schothorst/"><strong>Kantoorruimte bij station Schothorst</strong><span>40 tot 220 m²</span></a></div>
+  </div>
+</section>
+
 <!-- ── CONTACT ───────────────────────────────────────── -->
 <section class="contact" id="contact" aria-labelledby="h-contact">
   <div class="container contact-inner">
@@ -1407,16 +1432,19 @@
 <footer>
   <div class="footer-inner">
     <address class="footer-nap">
-      <strong>Zielhorsterweg 73</strong> — kantoorruimte bij station Schothorst<br>
-      3813 ZX Amersfoort<br>
+      <strong>Darthuizerberg 1</strong> — kantoorruimte huren in Vathorst<br>
+      3825 BK Amersfoort<br>
       <a href="tel:+31621247257">06 21 24 72 57</a> · <a href="mailto:Jeroenoversteegen@gmail.com">Jeroenoversteegen@gmail.com</a>
     </address>
     <div class="footer-links" role="navigation" aria-label="Footer">
+      <a href="/te-huur-kantoorruimte-en-parkeerplaatsen-bij-station-schothorst/">Kantoor Schothorst</a>
+      <a href="/parkeerplaats-te-huur-amersfoort-vathorst-zielhorst/">Parkeren Zielhorst</a>
       <a href="/">Kantoorruimte Vathorst</a>
       <a href="#faciliteiten">Voorzieningen</a>
       <a href="#faq">Vragen</a>
       <a href="#contact">Contact</a>
     </div>
+    <div class="updated">Laatst bijgewerkt: oktober 2026</div>
     <div>© <span id="year"></span> Darthuizerberg 1</div>
   </div>
 </footer>
